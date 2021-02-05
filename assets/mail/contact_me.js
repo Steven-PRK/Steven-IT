@@ -57,7 +57,7 @@ $(function () {
                         $("<strong>").text(
                             "Sorry " +
                                 firstName +
-                                ", it seems that my mail server is not responding. Please try again later!"
+                                " 님, 메일 서버 작업이 아직 안정화가 되지 않았습니다. 나중에 다시 이용해주시거나 디스코드를 사용하여 연락주세요."
                         )
                     );
                     $("#success > .alert-danger").append("</div>");
